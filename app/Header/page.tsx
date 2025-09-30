@@ -9,10 +9,10 @@ import { useEffect, useRef } from "react";
 export default function Header() {
     // statsData
     const statsData = [
-        { value: 17, label: "Projects\nCompleted" },
-        { value: 6, label: "Team\nProjects" },
-        { value: 5, label: "Technologies\nLearned" },
-        { value: 336, label: "Users\nImpacted" },
+        { value: 17, label: "Projects Completed" },
+        { value: 6, label: "Team Projects" },
+        { value: 5, label: "Technologies Learned" },
+        { value: 336, label: "Users Impacted" },
     ];
 
     const countRefs = useRef([]);
@@ -34,7 +34,8 @@ export default function Header() {
     }, []);
 
     return (
-        <header className="h-[100vh] text-white py-12 relative">
+        <header className="h-[100vh] text-white py-12 relative overflow-x-hidden max-w-full">
+
             {/* BG Elements */}
             <div className="absolute top-0 left-0 w-[300px] h-[300px] rounded-full 
                 bg-gradient-to-r from-[var(--primary-light-1)] to-[var(--primary-light-2)] blur-[100px] -z-10"></div>
@@ -45,12 +46,12 @@ export default function Header() {
             <div className="absolute bottom-0 left-[20%] w-[500px] h-[500px] rounded 
                 bg-gradient-to-r from-[var(--primary-light-1)] to-[var(--primary-light-2)] blur-[100px] -z-10"></div>
 
-            <div className="flex pt-10 flex-col lg:flex-row items-center justify-between px-[8%] lg:px-[16%]">
+            <div className="flex pt-10 flex-col-reverse lg:flex-row items-center justify-between px-[8%] lg:px-[16%]">
                 {/* Left Content */}
                 <div className="lg:w-1/2 text-start md:text-left">
                     <p className="text-lg mb-2 text-gray-400">Software Engineer</p>
                     <h1 className="text-7xl text-start lg:text-8xl font-unbounded font-normal mb-2">
-                        Hello I'm <span className="text-[color:var(--primary-color)]">Alex Chukwudi</span>
+                        Hello I'm <span className="text-[color:var(--primary-color)]">Alex</span>
                     </h1>
                     <p className="text-gray-400 text-md lg:text-xl font-normal font-sora my-8">
                         I excel at crafting elegant digital experiences and I am proficient
@@ -78,7 +79,7 @@ export default function Header() {
                 </div>
 
                 {/* Right Image */}
-                <div className="lg:w-1/2 w-full mt-10 lg:mt-0 flex justify-center relative">
+                <div className="lg:w-1/2 w-full mt-4 mb-6 lg:mt-0 flex justify-center relative">
                     <div className="relative rounded-full flex items-center justify-center">
                         <div className="relative hero-image w-full h-full rounded-full overflow-hidden bg-gradient-to-r 
                         from-[var(--hero-image-from)] to-[var(--hero-image-to)]">
@@ -93,21 +94,22 @@ export default function Header() {
             </div>
 
             {/* Stats */}
-            <div className="stats px-[8%] lg:px-[16%] mt-30 hidden lg:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-                {statsData.map((stat, index) => (
-                    <div key={index} className="flex gap-2 items-center">
-                        <h1
-                             ref={(el) => (countRefs.current[index] = el)}
-                             className="text-7xl font-unbounded font-bold"
-                        >
-                           0
-                        </h1>
-                        <p className="text-xl ps-4 text-gray-400 font-semibold whitespace-pre-line">
-                            {stat.label}
-                        </p>
-                    </div>
-                ))}
+            <div className="stats px-6 md:px-[16%] mt-20 grid grid-cols-2 gap-6 md:grid-cols-4 text-center w-full">
+            {statsData.map((stat, index) => (
+                <div key={index}>
+                <h1
+                    ref={(el) => (countRefs.current[index] = el)}
+                    className="text-4xl md:text-6xl font-unbounded font-bold text-white"
+                >
+                    0
+                </h1>
+                <p className="text-sm md:text-lg text-gray-400 font-semibold mt-2 whitespace-pre-line">
+                    {stat.label}
+                </p>
+                </div>
+            ))}
             </div>
+
         </header>
     );
 }

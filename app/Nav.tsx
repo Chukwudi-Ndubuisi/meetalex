@@ -18,11 +18,12 @@ export default function Nav() {
 
     return (
         <nav className="w-full z-[99999] transition-all duration-300">
-            <div className="flex justify-between items-center px-[8%] lg:px-[16%] py-6">
-                <Link href="/" className="text-5xl font-bold font-unbounded text-white logo">
-                    BuiltBy
-                    <span className="text-[var(--primary-color)] font-unbounded">Alex</span>
+            <div className="flex justify-between items-center px-4 md:px-8 lg:px-16 py-4">
+                <Link href="/" className="font-bold font-unbounded text-white logo text-2xl md:text-4xl lg:text-5xl">
+                 Meet
+                     <span className="text-[var(--primary-color)]">Alex</span>
                 </Link>
+
 
                 {/* Desktop Nav */}
                 <div className="flex items-center gap-3">
