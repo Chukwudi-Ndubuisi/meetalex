@@ -1,0 +1,164 @@
+NextJS Installation :
+	
+npx create-next-app@latest
+Project Name : foliohub
+
+after this CD to created Project The Run Project ( npm run dev )
+
+<!------------------- Plagin I Use  ------------------->
+
+
+Run All CMD In New Terminal After run the Project
+
+<!-- Remix Icon -->
+npm install remixicon
+<!-- Bootstrap Icon -->
+npm install bootstrap-icons
+<!-- Counter Js -->
+npm install countup.js
+<!-- Swiper Slider -->
+npm install swiper
+<!-- All Icon CMD -->
+npm install remixicon react-icons @fortawesome/react-fontawesome @fortawesome/free-brands-svg-icons
+
+
+@import "swiper/css";
+@import "swiper/css/navigation";
+
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+@import 'remixicon/fonts/remixicon.css';
+
+step-1 : Change Page.js Code 
+step-2 : Remove Css From Globals.css
+step-3 : write the Root of css code also add font-family 
+step-4 : add Font-family in Layout.js
+step-5 : Create Folders 
+		( Header > page.jsx)
+		( Services > page.jsx)
+		( Resume > page.jsx)
+		( Work > page.jsx)
+		( Contact > page.jsx)
+step-5 : write navbar code    After Write Css Code for Nav
+step-6 : Now open Header Folder and open page.jsx for hero section write code for header after Write Same css code for header
+step-7 : Same write for Services , Resume , Work , Contact ( all jsx code done write after css code )
+
+
+
+
+
+
+// Content
+
+
+{
+    id: "01",
+    title: "Web Development",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque consequat, faucibus et, et.",
+},
+{
+    id: "02",
+    title: "UI/UX Design",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque consequat, faucibus et, et.",
+},
+{
+    id: "03",
+    title: "Logo Design",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque consequat, faucibus et, et.",
+},
+{
+    id: "04",
+    title: "SEO",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque consequat, faucibus et, et.",
+},
+
+
+//  Resume
+
+// Experiences
+
+{
+    date: "2025 - Present",
+    role: "Full Stack Developer",
+    company: "Tech Solutions Inc.",
+},
+{
+    date: "Summer 2021",
+    role: "Front-End Developer Intern",
+    company: "Web Design Studio",
+},
+{
+    date: "2020 - 2021",
+    role: "Freelance Web Developer",
+    company: "E-commerce Startup",
+},
+{
+    date: "2019 - 2020",
+    role: "Teaching Assistant",
+    company: "Tech Academy",
+},
+{
+    date: "2018 - 2019",
+    role: "Diploma in Graphic Design",
+    company: "Design School",
+},
+{
+    date: "2015 - 2017",
+    role: "Associate Degree in Computer Science",
+    company: "Community College",
+},
+
+
+
+// Educations
+
+{ year: "2021 - 2023", degree: "M.Sc. Computer Science", institute: "XYZ University" },
+{ year: "2018 - 2021", degree: "B.Sc. Computer Science", institute: "ABC College" },
+{ year: "2016 - 2018", degree: "High School", institute: "DEF School" },
+
+
+
+// skills
+
+{ name: "HTML", icon: <SiHtml5 /> },
+{ name: "CSS", icon: <SiCss3 /> },
+{ name: "JavaScript", icon: <FaJs /> },
+{ name: "React", icon: <FaReact /> },
+{ name: "Bootstrap", icon: <FaBootstrap /> },
+{ name: "Next.js", icon: <SiNextdotjs /> },
+{ name: "Tailwind CSS", icon: <SiTailwindcss /> },
+{ name: "Node.js", icon: <FaNodeJs /> },
+
+
+
+
+// Works
+
+
+{
+    id: "01",
+    title: "React JS Project",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque consequat, faucibus et, et.",
+    tech: ["React JS", "Tailwind css", "Javascript"],
+    img: "/Project-1.jpg",
+},
+{
+    id: "02",
+    title: "Travels Project",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque consequat, faucibus et, et.",
+    tech: ["Figma", "Tailwind css", "React.Js"],
+    img: "/Project-2.jpg",
+},
+{
+    id: "03",
+    title: "Portfolio Project",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque consequat, faucibus et, et.",
+    tech: ["Bootstrap css", "Motion", "React.Js"],
+    img: "/Project-3.jpg",
+},
+{
+    id: "04",
+    title: "Business Portfolio",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque consequat, faucibus et, et.",
+    tech: ["Tailwind css", "Motion", "React.Js"],
+    img: "/Project-4.jpg",
+},
