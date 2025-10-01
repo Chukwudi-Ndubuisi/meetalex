@@ -24,8 +24,8 @@ const unbounded = Unbounded({
 });
 
 export const metadata: Metadata = {
-  title: "FolioHub",
-  description: "FolioHub personal portfolio",
+  title: "Meet Alexius",
+  description: "Personal Portfolio Website of Chukwudi (Alex) Ndubuisi",
 };
 
 export default function RootLayout({
