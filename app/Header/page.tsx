@@ -61,12 +61,13 @@ export default function Header() {
                     {/* Buttons */}
                     <div className="flex flex-wrap gap-8 items-center">
                         <Link
-                            href="#"
-                            className="border border-[var(--primary-color)] font-bold text-[color:var(--primary-color)] px-6 py-3
-                             rounded hover:bg-[var(--primary-color)] hover:text-white transition-all duration-500"
+                        href="/Alex_s_Resume.pdf"
+                        download
+                        className="border border-[var(--primary-color)] font-bold text-[color:var(--primary-color)] px-6 py-3 rounded hover:bg-[var(--primary-color)] hover:text-white transition-all duration-500"
                         >
-                            <i className="bi bi-download me-2"></i>Download CV
+                        <i className="bi bi-download me-2"></i>Download CV
                         </Link>
+
 
                         <div className="flex hero-social gap-2 text-xl">
                             

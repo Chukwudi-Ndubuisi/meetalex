@@ -20,14 +20,14 @@ export default function ProjectSlider() {
         },
         {
             id: "02",
-            title: "Catalyst Challenge — OpenHarvest",
+            title: "Catalyst Challenge",
             desc: "Collaborated with a multidisciplinary team at Ontario Tech to design OpenHarvest, an AI-powered platform that connects farmers and buyers to reduce food waste and improve supply chain efficiency.",
             tech: ["figma", "tailwind css", "react js"],
             img: "/Project-2.jpg",
         },
         {
             id: "03",
-            title: "Kudi Kitchen — Cookbook & Content Brand",
+            title: "Kudi Kitchen",
             desc: "Launched and managed a digital cookbook business focused on weight-loss recipes. Combined e-commerce, content creation, and digital marketing strategies to grow sales and build an online community.",
             tech: ["bootstrap css", "motion", "react js"],
             img: "/Project-3.jpg",
