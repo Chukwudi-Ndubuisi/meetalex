@@ -99,7 +99,7 @@ export default function Header() {
             {statsData.map((stat, index) => (
                 <div key={index}>
                 <h1
-                    ref={(el) => (countRefs.current[index] = el)}
+                    ref={(el) => { countRefs.current[index] = el; }}
                     className="text-4xl md:text-6xl font-unbounded font-bold text-white"
                 >
                     0
