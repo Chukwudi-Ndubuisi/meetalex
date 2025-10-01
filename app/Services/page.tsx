@@ -10,13 +10,13 @@ const ServicesData = [
     },
     {
         id: "02",
-        title: "Frontend Development",
+        title: "Website Development",
         desc: "Crafting responsive and interactive user interfaces with React, Next.js, and Tailwind CSS.",
     },
     {
         id: "03",
-        title: "Backend Development",
-        desc: "Developing robust server-side logic, APIs, and database management for high-performance applications.",
+        title: "UI/UX Design",
+        desc: "Creating user-centered designs that enhance usability and improve user experience.",
     },
     {
         id: "04",

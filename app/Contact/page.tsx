@@ -13,7 +13,8 @@ export default function Page() {
                         Let's work together
                     </h2>
                     <p className="text-sm text-gray-400 my-8">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt sit illo esse commodi.
+                        Got a project or idea you’d like to bring to life? Let’s work together to create modern, scalable, and impactful digital solutions.
+
                     </p>
 
                     <form className="space-y-6">
@@ -49,6 +50,8 @@ export default function Page() {
                             className="w-full bg-[#0e0f12] border border-gray-700 rounded-lg
                             px-4 py-4 text-sm focus:outline-none focus:border-[var(--primary-color)] transition-all duration-500 appearance-none">
                             <option>Select a service</option>
+                            <option>Software Development</option>
+                            <option>Database Management</option>
                             <option>Web Development</option>
                             <option>UI/UX Design</option>
                             <option>SEO Optimization</option>
@@ -80,7 +83,7 @@ export default function Page() {
                         </span>
                         <div>
                             <p className="text-sm text-gray-400">Phone</p>
-                            <p className="font-medium">(+91) 123 456 789</p>
+                            <p className="font-medium">(+1) 905 922 5891</p>
                         </div>
                     </div>
                     <div className="contact-col flex items-center space-x-4 border-b border-gray-600 pb-5">
@@ -89,7 +92,7 @@ export default function Page() {
                         </span>
                         <div>
                             <p className="text-sm text-gray-400">Email</p>
-                            <p className="font-medium">tyler.Exaple@gamil.com</p>
+                            <p className="font-medium">chukwudi.can@gmail.com</p>
                         </div>
                     </div>
                     <div className="contact-col flex items-center space-x-4 border-b border-gray-600 pb-5">
@@ -98,7 +101,7 @@ export default function Page() {
                         </span>
                         <div>
                             <p className="text-sm text-gray-400">Address</p>
-                            <p className="font-medium">Code Corner , Tech Town 13579</p>
+                            <p className="font-medium">Oshawa Ontario</p>
                         </div>
                     </div>
                     <div className="contact-col flex items-center space-x-4 border-b border-gray-600 pb-5">
@@ -117,7 +120,7 @@ export default function Page() {
                         </span>
                         <div>
                             <p className="text-sm text-gray-400">WhatsApp</p>
-                            <p className="font-medium">+91 123 456 789</p>
+                            <p className="font-medium">+1 905 922 5891</p>
                         </div>
                     </div>
                     <div className="contact-col flex items-center space-x-4 border-b border-gray-600 pb-5">
@@ -126,7 +129,7 @@ export default function Page() {
                         </span>
                         <div>
                             <p className="text-sm text-gray-400">Website</p>
-                            <p className="font-medium">www.yourwebsite.com</p>
+                            <p className="font-medium">www.meetalexius.com</p>
                         </div>
                     </div>
                 </div>

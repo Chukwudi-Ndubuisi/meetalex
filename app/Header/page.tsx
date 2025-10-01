@@ -9,9 +9,9 @@ import { useEffect, useRef } from "react";
 export default function Header() {
     // statsData
     const statsData = [
-        { value: 17, label: "Projects Completed" },
-        { value: 6, label: "Team Projects" },
-        { value: 5, label: "Technologies Learned" },
+        { value: 3, label: "Years of Study" },
+        { value: 8, label: "Projects Completed" },
+        { value: 14, label: "Technologies Learned" },
         { value: 336, label: "Users Impacted" },
     ];
 
@@ -54,8 +54,8 @@ export default function Header() {
                         Hello I'm <span className="text-[color:var(--primary-color)]">Alex</span>
                     </h1>
                     <p className="text-gray-400 text-md lg:text-xl font-normal font-sora my-8">
-                        I excel at crafting elegant digital experiences and I am proficient
-                        in various programming languages and technologies.
+                        Passionate about turning ideas into web solutions, I focus on creating fast, reliable, and user-friendly applications that make an impact.
+
                     </p>
 
                     {/* Buttons */}

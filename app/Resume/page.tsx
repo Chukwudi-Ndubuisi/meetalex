@@ -14,42 +14,41 @@ export default function Resume() {
     // Experience
     const experiences = [
         {
-            date: "2025 - Present",
-            role: "Full Stack Developer",
-            company: "Tech Solutions Inc.",
+            date: "May 2025 - Present",
+            role: "Wealth Manager",
+            company: "Aegon",
         },
         {
-            date: "Summer 2021",
-            role: "Front-End Developer Intern",
-            company: "Web Design Studio",
+            date: "Summer 2024",
+            role: "Web Developer Intern",
+            company: "Western Bell International Limited",
         },
         {
-            date: "2020 - 2021",
-            role: "Freelance Web Developer",
-            company: "E-commerce Startup",
+            date: "Mar 2025 - Present",
+            role: "Founder & Digital Creator",
+            company: "Kudi Kitchen",
         },
         {
-            date: "2019 - 2020",
-            role: "Teaching Assistant",
-            company: "Tech Academy",
+            date: "July 2024 - Jan 2025",
+            role: "Managerial Intern",
+            company: "WesternBell International Ltd",
         },
         {
-            date: "2018 - 2019",
-            role: "Diploma in Graphic Design",
-            company: "Design School",
+            date: "Aug 2025 - Sep 2025",
+            role: "Innovation Participant",
+            company: "Brilliant Catalyst Challenge",
         },
         {
-            date: "2015 - 2017",
-            role: "Associate Degree in Computer Science",
-            company: "Community College",
+            date: "Apr 2023 - Jan 2024",
+            role: "Fitness Trainer",
+            company: "Self-employed",
         },
     ];
 
     // Education
     const educations = [
-        { year: "2021 - 2023", degree: "M.Sc. Computer Science", institute: "XYZ University" },
-        { year: "2018 - 2021", degree: "B.Sc. Computer Science", institute: "ABC College" },
-        { year: "2016 - 2018", degree: "High School", institute: "DEF School" },
+        { year: "2023 - Present", degree: "B.Eng. Software Engineering", institute: "OntarioTech University" },
+        { year: "2022 - 2023", degree: "NIIT Computer Training Program", institute: "National Institute of Information Technology" },
     ];
     // Skills
     const skills = [
@@ -71,8 +70,7 @@ export default function Resume() {
                         Why hire me?
                     </h2>
                     <p className="text-gray-400 mt-6 mb-10">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum perferendis
-                        sint aliquam dolor velit excepturi!
+                        Hands-on experience working on personal and academic projects involving web development, UI/UX design, and software solutions. Skilled in collaborating with teams to build scalable applications and practical digital solutions.
                     </p>
                     <div className="flex flex-col gap-5">
                         {tabs.map((tab) => (
@@ -96,7 +94,7 @@ export default function Resume() {
                         {activeTab}
                     </h2>
                     <p className="text-gray-400 mb-10">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, aliquam quam dolor quisquam odio iure?
+                        2022 - Present
                     </p>
                     {/* Experience */}
                     {activeTab === "Experience" && (
@@ -167,16 +165,16 @@ export default function Resume() {
                     {activeTab === "About me" && (
                         <div className="text-gray-400 space-y-4">
                             <p>
-                                Hi! I'm <span className="text-[color:var(--primary-color)] font-semibold">Tyler knox </span>
-                                a passionate full-stack developer who enjoys crafting modern web applications and sleek, user-friendly interfaces.
+                                Hi! I'm <span className="text-[color:var(--primary-color)] font-semibold">Alex Chukwudi</span>,
+                                 a passionate full-stack developer who enjoys crafting modern web applications and sleek, user-friendly interfaces.
                             </p>
                             <ul className="space-y-2">
-                                <li><strong>Experience:</strong> 8+ Years in Web Development</li>
-                                <li><strong>Nationality:</strong> American</li>
+                                <li><strong>Experience:</strong> 5+ Years in Web Development</li>
+                                <li><strong>Nationality:</strong> Nigerian</li>
                                 <li><strong>Freelance:</strong> Available for projects</li>
-                                <li><strong>Phone:</strong> (+1) 123 4567  890</li>
-                                <li><strong>Email:</strong> tyler.Example@gmail.com</li>
-                                <li><strong>Languages:</strong> English, Spanish</li>
+                                <li><strong>Phone:</strong> (+1) 905 9225  891</li>
+                                <li><strong>Email:</strong> chukwudi.can@gmail.com</li>
+                                <li><strong>Languages:</strong> English</li>
                             </ul>
                             <p>
                                 I specialize in React, Next.js, Node.js, and Tailwind CSS. I love turning ideas into functional, elegant web solutions that users enjoy.

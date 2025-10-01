@@ -6,37 +6,37 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 import { FaReact, FaJsSquare, FaBootstrap, FaFigma } from "react-icons/fa";
-import { SiTailwindcss, SiFramer } from "react-icons/si";
+import { SiTailwindcss, SiFramer, SiNextdotjs, SiTypescript, SiVercel } from "react-icons/si";
 import Link from "next/link";
 
 export default function ProjectSlider() {
     const projects = [
         {
             id: "01",
-            title: "React JS Project",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque consequat, faucibus et, et.",
-            tech: ["React JS", "Tailwind css", "Javascript"],
+            title: "MeetAlex Portfolio Website",
+            desc: "A personal portfolio built with Next.js, Tailwind CSS, and deployed on Vercel with a custom domain.",
+            tech: ["nextjs", "typescript", "vercel"],
             img: "/Project-1.jpg",
         },
         {
             id: "02",
-            title: "Travels Project",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque consequat, faucibus et, et.",
-            tech: ["Figma", "Tailwind css", "React.Js"],
+            title: "Catalyst Challenge — OpenHarvest",
+            desc: "Collaborated with a multidisciplinary team at Ontario Tech to design OpenHarvest, an AI-powered platform that connects farmers and buyers to reduce food waste and improve supply chain efficiency.",
+            tech: ["figma", "tailwind css", "react js"],
             img: "/Project-2.jpg",
         },
         {
             id: "03",
-            title: "Portfolio Project",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque consequat, faucibus et, et.",
-            tech: ["Bootstrap css", "Motion", "React.Js"],
+            title: "Kudi Kitchen — Cookbook & Content Brand",
+            desc: "Launched and managed a digital cookbook business focused on weight-loss recipes. Combined e-commerce, content creation, and digital marketing strategies to grow sales and build an online community.",
+            tech: ["bootstrap css", "motion", "react js"],
             img: "/Project-3.jpg",
         },
         {
             id: "04",
-            title: "Business Portfolio",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque consequat, faucibus et, et.",
-            tech: ["Tailwind css", "Motion", "React.Js"],
+            title: "Create Business Portfolio",
+            desc: "Worked with clients to create tailored business portfolios that effectively showcase their brand and services.",
+            tech: ["tailwind css", "motion", "react js"],
             img: "/Project-4.jpg",
         },
     ];
@@ -87,7 +87,21 @@ export default function ProjectSlider() {
                                             case "motion":
                                                 IconComponent = SiFramer;
                                                 break;
-                                            default : 
+
+                                           case "nextjs":
+                                                 case "next.js":
+                                                  IconComponent = SiNextdotjs;
+                                               break;
+
+                                            case "typescript":
+                                                case "ts":
+                                                 IconComponent = SiTypescript;
+                                                break;
+
+                                            case "vercel":
+                                               IconComponent = SiVercel;
+                                                break;
+                                            default:                            
                                                 IconComponent = null;
                                         }
                                         return IconComponent ? (
