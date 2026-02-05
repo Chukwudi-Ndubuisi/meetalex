@@ -61,7 +61,7 @@ export default function Header() {
                     {/* Buttons */}
                     <div className="flex flex-wrap gap-8 items-center">
                         <Link
-                        href="/Alex_s_Resume.pdf"
+                        href="/Chukwudi_Alex_Software_Engineer_Intern.pdf"
                         download
                         className="border border-[var(--primary-color)] font-bold text-[color:var(--primary-color)] px-6 py-3 rounded hover:bg-[var(--primary-color)] hover:text-white transition-all duration-500"
                         >
